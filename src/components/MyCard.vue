@@ -2,7 +2,7 @@
   <v-card elevation="2" shaped tile> {{ text }} </v-card>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "MyCard",
 
