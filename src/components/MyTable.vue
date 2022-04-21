@@ -3,6 +3,9 @@
     :headers="headers"
     :items="desserts"
     :items-per-page="3"
+    :footer-props="{
+      disableItemsPerPage: true,
+    }"
     class="elevation-1"
   ></v-data-table>
 </template>
@@ -10,8 +13,6 @@
 <script lang="ts">
 export default {
   name: "MyTable",
-
-  props: {},
 
   data: () => ({
     headers: [

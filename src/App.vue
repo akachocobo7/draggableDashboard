@@ -10,8 +10,8 @@
   </v-app>
 </template>
 
-<script>
-import DashBoard from "./components/DashBoard";
+<script lang="ts">
+import DashBoard from "./components/DashBoard.vue";
 
 export default {
   name: "App",

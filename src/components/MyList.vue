@@ -14,6 +14,12 @@
 export default {
   name: "MyList",
 
-  data: () => ({ items: [{ text: "aaa" }, { text: "bbb" }, { text: "ccc" }] }),
+  data: () => ({
+    items: [
+      { text: "chocobo" },
+      { text: "kurochocobo" },
+      { text: "akachocobo" },
+    ],
+  }),
 };
 </script>
